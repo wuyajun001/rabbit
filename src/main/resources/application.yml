@@ -1,0 +1,11 @@
+# 服务端口号 这边需要强调,这个配置只是用来指定SpringBoot内置Tomcat端口号的,如果使用自定义的Tomcat容器启动,不会生效
+server:
+  port: 8066
+
+
+# rabbitmq配置
+spring:
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
